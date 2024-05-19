@@ -9,34 +9,34 @@ address {
 button {
   padding: 11px 30px;
   font-family: Raleway, sans-serif;
-  text-transform: uppercase;
   font-weight: bold;
   font-size: 22px;
+  text-transform: uppercase;
   cursor: pointer;
 }
 
 h1 {
-  text-transform: uppercase;
-  font-size: 100px;
-  font-weight: bold;
   color: #fff;
+  font-weight: bold;
+  font-size: 100px;
   line-height: 1.23;
-  letter-spacing: 0.3em; 
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-size: 40px;
-  text-transform: uppercase;
   color: #000;
   font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 h3 {
-  font-size: 22px;
-  text-transform: uppercase;
   color: #fff;
   font-weight: bold;
+  font-size: 22px;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .header {
@@ -51,8 +51,8 @@ h3 {
 .header__links-list {
   display: flex;
   gap: 32px;
-  list-style-type: circle;
   letter-spacing: 0.01em;
+  list-style-type: circle;
 }
 
 .header__links-list-item_no-bullit {
@@ -75,22 +75,22 @@ h3 {
 
 .overlay {
   position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
   width: 100%;
   height: 100%;
-  left: 0;
-  top: 0;
-  background-color: #000;
   opacity: 0.6;
-  z-index: -1;
+  background-color: #000;
 }
 
 .cover {
   position: relative;
-  background-image: url(./../images/cover.jpg);
-  background-size: cover;
-  padding: 165px 50px 51px;
   z-index: 0;
   margin-bottom: 179px;
+  padding: 165px 50px 51px;
+  background-image: url(./../images/cover.jpg);
+  background-size: cover;
 }
 
 .cover__title {
@@ -127,9 +127,9 @@ h3 {
 }
 
 .cover__description-text {
-  text-transform: uppercase;
-  font-size: 22px;
   color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
 .whitespace {
@@ -138,27 +138,27 @@ h3 {
 }
 
 .bet-button {
-  background: transparent;
-  color: #fff;
   border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
 }
 
 .lots {
-  padding: 0 24px;
   margin-bottom: 180px;
+  padding: 0 24px;
 }
 
 .lots__heading {
-  margin-left: 40px;
   margin-bottom: 27px;
+  margin-left: 40px;
 }
 
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  list-style: none;
   margin-bottom: 30px;
+  list-style: none;
 }
 
 .lots__card-list-item {
@@ -168,12 +168,12 @@ h3 {
 
 .card {
   position: relative;
+  z-index: -1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 50px 40px;
   height: 100%;
-  z-index: -1;
+  padding: 50px 40px;
 }
 
 .card-link {
@@ -181,52 +181,52 @@ h3 {
 }
 
 .card__text {
-  font-size: 20px;
   color: #fff;
+  font-size: 20px;
 }
 
 .card_type_film {
   background-image: url(./../images/card-lot-01.jpg);
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(./../images/card-lot-02.jpg);
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(./../images/card-lot-03.jpg);
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
 .lots__look-more-link {
   margin-left: 40px;
-  font-size: 20px;
   color: #000;
+  font-size: 20px;
 }
 
 .about {
-  grid-template: 240px 1fr / 334px 1fr;
-  column-gap: 24px;
-  row-gap: 10px;
   display: grid;
-  padding: 0 24px;
   align-items: center;
+  row-gap: 10px;
+  column-gap: 24px;
   margin-bottom: 180px;
+  padding: 0 24px;
+  grid-template: 240px 1fr / 334px 1fr;
 }
 
 .about__logo {
   display: flex;
+  justify-self: center;
   justify-content: center;
-  background-color: #000;
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  justify-self: center;
+  background-color: #000;
 }
 
 .about__logo-image {
@@ -236,8 +236,8 @@ h3 {
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 24px;
   grid-column-start: 2;
+  gap: 24px;
   font-size: 20px;
   letter-spacing: 0.004em;
 }
@@ -249,14 +249,14 @@ h3 {
 }
 
 .footer__menu {
-  text-align: center;
   font-size: 18px;
+  text-align: center;
 }
 
 .footer__social-list {
-  list-style: none;
   display: flex;
-  gap: 48px;  
+  gap: 48px;
+  list-style: none;
 }
 
 .footer__social-list-item {
