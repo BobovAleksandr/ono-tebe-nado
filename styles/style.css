@@ -111,6 +111,7 @@ address {
 
 .bet-button {
   border: 1px solid #fff;
+  font-weight: 500;
   padding: 11px 31px;
   color: #fff;
   font-family: Raleway, sans-serif;
